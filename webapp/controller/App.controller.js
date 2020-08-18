@@ -25,7 +25,7 @@ sap.ui.define([
 			MessageToast.show(sMsg);
 		},
 		onFilterProducts: function (oEvent) {
-			debugger;
+
 			// build filter array
 			/*			var aFilter = [],
 						
@@ -57,7 +57,6 @@ sap.ui.define([
 		},
 
 		onItemSelected: function (oEvent) {
-			debugger;
 
 			var oSelectedItem = oEvent.getSource();
 			var oContext = oSelectedItem.getBindingContext();
